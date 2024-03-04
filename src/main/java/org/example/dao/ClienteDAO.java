@@ -102,7 +102,7 @@ public class ClienteDAO {
                         clientesInactivos++;
                     }
                 }
-                System.out.println(c);
+                //System.out.println(c);
             }
             promedioVentas = promedioVentas / numActivos; // Calculamos el promedio de ventas
             System.out.println("Total de ventas: " + totalVentas);
